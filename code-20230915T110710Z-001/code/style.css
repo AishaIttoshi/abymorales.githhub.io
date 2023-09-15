@@ -1,0 +1,85 @@
+body {
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+/* Style for the logo container */
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px; /* Adjust as needed for spacing */
+    z-index: 1; /* Ensures the logo appears above other content */
+}
+
+/* Style for the logo image */
+.logo img {
+    max-width: 60px; /* Adjust the max-width to fit your logo */
+    height: auto;
+}
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+ .up   {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  
+}
+
+/* for the shape mhieee jusqo AHHA 
+img{
+    height: ;
+    width: 
+    border-radius: 
+}
+           */
+
+           /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Center align the footer content */
+.container {
+    text-align: center;
+}
+
+/* Style the footer logo */
+.footer-logo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style social media icons */
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+/* Add hover effect to social media icons */
+.social-media a:hover {
+    color: #ffbeff;
+}
+
